@@ -19,6 +19,7 @@ Solo project — built and used by you, for your own coding tasks and learning.
 ## Scope
 
 **In scope (v1):**
+
 - CLI interface first (single-shot / REPL), built in TypeScript/Node.js
 - Core tools: read / write / edit files, search the codebase (grep/glob-style)
 - Multi-turn conversation memory within a session, so follow-up instructions retain context
@@ -27,6 +28,7 @@ Solo project — built and used by you, for your own coding tasks and learning.
 - Model: not finalized — target a tool-calling-capable model sized to leave headroom on a 36GB machine (e.g. Qwen2.5-Coder or Llama 3.1 in the 7B–14B range, quantized); exact choice is an open question to validate by testing
 
 **Out of scope (for now):**
+
 - Shell command execution (running tests/builds/git) — deliberately deferred to a later phase
 - TUI — planned as a future iteration once the CLI version works
 - Paid/cloud model fallback
