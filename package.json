@@ -1,7 +1,7 @@
 {
   "name": "coding-agent",
   "version": "0.1.0",
-  "description": "A locally-run coding agent built from scratch, using a local Ollama model instead of a paid API.",
+  "description": "A locally-run coding agent built from scratch, using a local Ollama model",
   "type": "module",
   "bin": {
     "coding-agent": "dist/index.js"
